@@ -28,6 +28,10 @@ CTFd는 Capture The Flag 프레임 워크이며 각종 CTF 대회에 쉽게 하�
 
 <br>
 
+---
+
+<br>
+
 ![CTFd logo](/post_images/CTFd/index/logo.png)
 
 <br>
