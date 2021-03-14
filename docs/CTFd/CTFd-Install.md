@@ -150,6 +150,6 @@ description: "CTFd Install"
   serve.py 파일을 실행하고
   <span class="blue-000">{% raw %}\<public IPv4\>:8080{% endraw %}</span> 으로 접속하면
   
-  ![CTFd-Setup](/post-images/CTFd/CTFd-install/CTFd-Setup.png)
+  ![CTFd-Setup](/post_images/CTFd/CTFd-install/CTFd-Setup.png)
 
   이렇게 정상적으로 CTFd구축에 성공한것을 볼 수 있습니다.
