@@ -32,6 +32,10 @@ description: "CTFd Install"
 
 <br>
 
+---
+
+<br>
+
 + ## AWS EC2 instance CTFd Templates Install
 
   1. AWS EC2 접속
@@ -40,6 +44,8 @@ description: "CTFd Install"
   4. 보안 그룹 구성
   5. 인스턴스 SSH연결을 위한 키페어.pem 생성
   6. PuTTYGen으로 키페어.pem ppk로 변경
+  7. PuTTY 실행 후 ppk 파일 추가
+  8. PuTTY를 이용하여 AWS EC2 instance 연결
 
   먼저 AWS 서비스중 EC2를 찾고
 
@@ -79,7 +85,16 @@ description: "CTFd Install"
   
   PuTTY Category중 Connection -> SSH -> Auth 에 들어가고
   
-  Private key file for authentication: 에 있는 Browse... 버튼을 누른 후 아까 만든 ppk파일을 선택한 다음 Open 눌러 연결하면 된다.  
+  Private key file for authentication: 에 있는 Browse... 버튼을 누른 후 아까 만든 ppk파일을 선택한 다음 Open 눌러 연결하면 된다.
+
+  ![PuTTY EC2 instance SSH Connection](/post_images/CTFd/CTFd-install/PuTTY-EC2-instance-SSH-Connection.png)
+
+  이제 모든 구성을 마치고 PuTTY를 이용하여 SSH연결하면 이렇게 접속에 성공한것을 볼 수 있다.
+
+  이제 원하는 명령어를 치면서 CTFd를 구축하면 된다.
+
+  + [Ubuntu에 CTFd 구축](#ubuntu-ctfd-templates-install)
+  + [Ubuntu Docker CTFd 구축](#docker-ubuntu-ctfd-templates-install)
 
 <br>
 
@@ -88,6 +103,15 @@ description: "CTFd Install"
 <br>
 
 + ## Ubuntu CTFd Templates Install
+
+  <br>
+
+  1. apt 업데이트 & 업그레이드
+  2. CTFd/CTFd git 다운로드
+  3. serve.py 구성 편집
+  4. python3 설치
+  5. serve.py 파일 실행
+  6. \<public IPv4\>:8080 CTFd 접속
 
   <br>
 
