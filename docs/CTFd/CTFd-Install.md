@@ -143,22 +143,6 @@ description: "CTFd Install"
 
 <br>
 
-+ ## Red Hat Enterprise Linux CTFd Templates Install
-
-<br>
-
----
-
-<br>
-
-+ ## Windows 10 CTFd Templates Install
-
-<br>
-
----
-
-<br>
-
 + ## Docker Ubuntu CTFd Templates Install
 
   <br>
