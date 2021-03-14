@@ -132,22 +132,22 @@ description: "CTFd Install"
   docker 컨테이너 안에서 vim 편집기를 이용하여 serve.py 파일을 연 다음 ``parser.add_argument("--port", help="Port for debug server to listen on", default=4000)``
   
   4번줄에 위의 코드가 나오는데
-  CTFd를 실행할 포트를 변경하기 위해\<본인이 원하는 포트로 변경\> 우측에 있는 
-  ``default=4000`` 을 ``default=8080`` 으로 변경하고 
-  하단의 ``app.run(debug=True, threaded=True, host="127.0.0.1", port=args.port)`` 
-  부분의 
-  ``host="127.0.0.1"`` 
-  -> ``host="0.0.0.0"``
-  으로 바꾼 다음
+  CTFd를 실행할 포트를 변경하기 위해(원하는 포트로 변경)
   
-  ``ESC -> :wq -> Enter`` 저장하고 빠져나온 다음
+  우측에 있는  ``default=4000`` 을 ``default=8080`` 으로 변경하고 
+
+  하단의 ``app.run(debug=True, threaded=True, host="127.0.0.1", port=args.port)`` 
+  부분의 ``host="127.0.0.1"``  -> ``host="0.0.0.0"`` 
+  으로 바꾼 뒤
+
+  ``ESC -> :wq -> Enter`` 
 
   ```bash
   python3 serve.py
   # python3 명령어를 이용하여 serve.py 파일 실행
   ```
 
-  serve.py 파일을 실행한 다음
+  serve.py 파일을 실행하고
   <public IPv4>:8080 으로 접속하면
   
   ![CTFd-Setup](/post-images/CTFd/CTFd-install/CTFd-Setup.png)
