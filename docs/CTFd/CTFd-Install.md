@@ -140,7 +140,7 @@ description: "CTFd Install"
   부분의 ``host="127.0.0.1"``  -> ``host="0.0.0.0"`` 
   으로 바꾼 뒤
 
-  ``ESC -> :wq -> Enter`` 
+  ``ESC -> :wq -> Enter`` 저장한 다음
 
   ```bash
   python3 serve.py
@@ -148,7 +148,7 @@ description: "CTFd Install"
   ```
 
   serve.py 파일을 실행하고
-  <public IPv4>:8080 으로 접속하면
+  <span class="blue-000">{% raw %}\<public IPv4\>:8080{% endraw %}</span> 으로 접속하면
   
   ![CTFd-Setup](/post-images/CTFd/CTFd-install/CTFd-Setup.png)
 
