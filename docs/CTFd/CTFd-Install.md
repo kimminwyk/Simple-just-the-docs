@@ -93,6 +93,8 @@ description: "CTFd Install"
 
 + ## Docker Ubuntu CTFd Templates Install
 
+  <br>
+
   1. apt 업데이트 & 업그레이드
   2. docker package 설치
   3. docker ctfd/ctfd 이미지 설치
@@ -130,12 +132,13 @@ description: "CTFd Install"
   ```
 
   docker 컨테이너 안에서 vim 편집기를 이용하여 serve.py 파일을 연 다음 
+
   ``parser.add_argument("--port", help="Port for debug server to listen on", default=4000)``
   
   4번줄에 위의 코드가 나오는데
   CTFd를 실행할 포트를 변경하기 위해(원하는 포트로 변경)
   
-  우측에 있는  ``default=4000`` 을 ``default=8080`` 으로 변경하고 
+  우측에 있는  ``default=4000`` -> ``default=8080`` 변경하고 
 
   하단의 ``app.run(debug=True, threaded=True, host="127.0.0.1", port=args.port)`` 
   부분의 ``host="127.0.0.1"``  -> ``host="0.0.0.0"`` 
