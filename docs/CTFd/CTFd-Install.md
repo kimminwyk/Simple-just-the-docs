@@ -132,14 +132,15 @@ description: "CTFd Install"
     # docker CTFd 컨테이너 시작
   docker exec -it --user=root CTFd bash
     # 명령어 치기 위해 docker CTFd 컨테이너 접속
-    root@docker: apt update
-      # 사용 가능한 패키지와 버전에 대한 리스트 업데이트
-    root@docker: apt upgrade -y
-      # 현재 설치되어있는 패키지 최신 버전으로 업그레이드
-    root@docker: apt install vim python3 python3-pip -y
-      # CTFd 구축을 위한 python3 python3-pip vim 설치
-    root@docker: vim serve.py
-      # vim 편집기를 이용하여 serve.py 파일 편집
+  ------container------
+  root@docker: apt update
+    # 사용 가능한 패키지와 버전에 대한 리스트 업데이트
+  root@docker: apt upgrade -y
+    # 현재 설치되어있는 패키지 최신 버전으로 업그레이드
+  root@docker: apt install vim python3 python3-pip -y
+    # CTFd 구축을 위한 python3 python3-pip vim 설치
+  root@docker: vim serve.py
+    # vim 편집기를 이용하여 serve.py 파일 편집
   ```
 
   docker 컨테이너 안에서 vim 편집기를 이용하여 serve.py 파일을 연 다음 
@@ -159,7 +160,7 @@ description: "CTFd Install"
 
   ```bash
   python3 serve.py
-  # python3 명령어를 이용하여 serve.py 파일 실행
+    # python3 명령어를 이용하여 serve.py 파일 실행
   ```
 
   serve.py 파일을 실행하고 \<public IPv4\>:8080 으로 접속하면
