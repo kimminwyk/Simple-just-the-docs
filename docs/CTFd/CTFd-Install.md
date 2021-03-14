@@ -102,6 +102,8 @@ description: "CTFd Install"
   7. serve.py 실행
   8. <public IPv4>:8080 CTFd 접속
 
+  <br>
+
   ```bash
   apt update
   # 사용 가능한 패키지와 버전에 대한 리스트 업데이트
@@ -130,8 +132,13 @@ description: "CTFd Install"
   docker 컨테이너 안에서 vim 편집기를 이용하여 serve.py 파일을 연 다음 ``parser.add_argument("--port", help="Port for debug server to listen on", default=4000)``
   
   4번줄에 위의 코드가 나오는데
-  CTFd를 실행할 포트를 변경하기 위해<본인이 원하는 포트로 변경> 우측에 있는 ``default=4000`` 을 ``default=8080`` 으로 변경하고 
-  하단의 ``app.run(debug=True, threaded=True, host="127.0.0.1", port=args.port)`` 부분의 ``host="127.0.0.1"`` 을 ``host="0.0.0.0"`` 으로 바꾼 다음
+  CTFd를 실행할 포트를 변경하기 위해\<본인이 원하는 포트로 변경\> 우측에 있는 
+  ``default=4000`` 을 ``default=8080`` 으로 변경하고 
+  하단의 ``app.run(debug=True, threaded=True, host="127.0.0.1", port=args.port)`` 
+  부분의 
+  ``host="127.0.0.1"`` 
+  -> ``host="0.0.0.0"``
+  으로 바꾼 다음
   
   ``ESC -> :wq -> Enter`` 저장하고 빠져나온 다음
 
