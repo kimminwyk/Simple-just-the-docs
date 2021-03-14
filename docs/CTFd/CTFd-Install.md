@@ -141,8 +141,8 @@ description: "CTFd Install"
   우측에 있는  ``default=4000`` -> ``default=8080`` 변경하고 
 
   하단의 ``app.run(debug=True, threaded=True, host="127.0.0.1", port=args.port)`` 
-  부분의 ``host="127.0.0.1"``  -> ``host="0.0.0.0"`` 
-  으로 바꾼 뒤
+   
+  를 ``host="127.0.0.1"``  -> ``host="0.0.0.0"`` 으로 바꾼 뒤
 
   ``ESC -> :wq -> Enter`` 저장한 다음
 
@@ -151,8 +151,7 @@ description: "CTFd Install"
   # python3 명령어를 이용하여 serve.py 파일 실행
   ```
 
-  serve.py 파일을 실행하고
-  <span class="blue-000">{% raw %}\<public IPv4\>:8080{% endraw %}</span> 으로 접속하면
+  serve.py 파일을 실행하고 \<public IPv4\>:8080 으로 접속하면
   
   ![CTFd-Setup](/post_images/CTFd/CTFd-install/CTFd-Setup.png)
 
