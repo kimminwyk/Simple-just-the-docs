@@ -65,7 +65,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Current Writeup Blog Github":
-    - "//github.com/kimminwyk/just-the-docs"
+    - "//github.com/kimminwyk/Simple-just-the-docs"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
