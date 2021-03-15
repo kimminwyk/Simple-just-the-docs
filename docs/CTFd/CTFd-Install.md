@@ -38,6 +38,8 @@ description: "CTFd Install"
 
 + ## AWS EC2 instance CTFd Templates Install
 
+  <br>
+
   1. AWS EC2 접속
   2. Amazon Machine Image 선택
   3. 인스턴스 유형 선택
