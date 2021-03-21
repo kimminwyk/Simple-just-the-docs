@@ -24,12 +24,20 @@ CTFd 구축 후 설정(Setup)
 
 + ## CTFd Setup
 
+    <br>
+
     + ### CTFd Setup General
 
         ![CTFd Setup Event](/post_images/CTFd/CTFd-Setup/CTFd-Setup-Event.png)
 
         + Event Name
+
+            구축할 CTF이벤트 이름
+
         + Event Description
+
+            구축할 CTF에 대한 설명
+
         + User Mode
 
           + Team Mode
@@ -45,9 +53,20 @@ CTFd 구축 후 설정(Setup)
         ![CTFd Setup Administration](/post_images/CTFd/CTFd-Setup/CTFd-Setup-Administration.png)
 
         + Admin Username
+
+            CTF admin(최고 권한) 유저 아이디
+
         + Admin Email
+
+            CTF admin(최고 권한) 유저 이메일
+
         + Admin Password
+
+            CTF admin(최고 권한) 유저 비밀번호
+
         + Subscribe email address to the CTFd LLC Newsletter for news and updates
+
+            CTF admin이메일로 CTFd LLC Newsletter를 구독합니다.
 
     + ### CTFd Setup Style
 
@@ -55,12 +74,26 @@ CTFd 구축 후 설정(Setup)
 
         + Logo
 
-            
+            CTF 구축 후 상단 우측에 나오는 로고
+
+            사용하는 대신 CTFd Setup General에서 설정한 Event Name이 가려지게 됩니다.
 
         + Banner
+
+            구축할 CTF 홈페이지에 사용할 배너
+
         + Small Icon
+
+            사용자의 브라우저에서 사용되는 favicon(작은 아이콘)
+
         + Theme
+
+            CTFd에 적용할 테마
+
         + Theme Color
+
+            CTFd의 상단 헤더 테마 색깔
+
 
     + ### CTFd Setup Date & Time
 
