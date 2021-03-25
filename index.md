@@ -6,10 +6,10 @@ description: "me2nuk's writeup or Docs Blog"
 permalink: /
 ---
 
-# Focus on writing good documentation
+# me2nuk's writing documentation
 {: .fs-9 }
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+지금까지 공부하면서 배운 모든 내용을 요약하고 쉽게 공부하기 위해 만들어진 블로그 입니다.
 {: .fs-6 .fw-300 }
 
 [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
