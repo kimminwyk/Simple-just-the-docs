@@ -29,24 +29,11 @@ HTML는 하이퍼텍스트 마크업 언어(HyperText Markup Language)이며 월
 
 ~~가끔 HTML은 프로그래밍 언어이다. 라고하는게 보이는데 마크업 언어가 맞습니다.~~
 
-## Inline code
-
-Code can be rendered inline by wrapping it in single back ticks.
-
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-## Heading with `<inline code snippet>` in it.
-{: .no_toc }
-</div>
-```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-## Heading with `<inline code snippet>` in it.
-```
+<br>
 
 ---
 
+<br>
 
 ## HTML 태그 형식
 
