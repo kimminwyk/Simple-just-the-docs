@@ -16,9 +16,9 @@ CTFd는 Capture The Flag 프레임 워크이며 각종 CTF 대회에 쉽게 하�
 
 ---
 
-[CTFd Github](https://github.com/CTFd/CTFd)
++ [CTFd Github](https://github.com/CTFd/CTFd)
 
-[Live Demo CTFd](https://demo.ctfd.io/)
++ [Live Demo CTFd](https://demo.ctfd.io/)
 
 <br>
 
