@@ -36,7 +36,7 @@ HTML는 꺽쇠 괄호로 둘러싸인 형태로 태그를 만듭니다.
 예시로
 
 <div class="code-example" markdown="1">
-<h1>Hello World!</h1>
+<h2>me2nuk의 아재개그 교실</h2>
 <p>
     왕이 넘어지면? 킹콩<br>
     모자가 놀라면? 모자이크<br>
@@ -46,9 +46,9 @@ HTML는 꺽쇠 괄호로 둘러싸인 형태로 태그를 만듭니다.
     추장보다 높은것은? 고추장<br>
     시계좀 보시계 엌ㅋㅋ
 </p>
-{: .no_toc }
 
 ---
+{: .no_toc }
 
 </div>
 ```HTML
