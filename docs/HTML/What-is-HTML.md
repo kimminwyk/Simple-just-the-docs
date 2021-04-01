@@ -68,10 +68,8 @@ HTML는 꺽쇠 괄호로 둘러싸인 형태로 태그를 만듭니다.
 
 ---
 </div>
-
 #### HTML Code
 {: .no_toc }
-
 ```markdown
 <h2>아재개그 교실</h2>
 <p>
