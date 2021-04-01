@@ -29,6 +29,25 @@ HTML는 하이퍼텍스트 마크업 언어(HyperText Markup Language)이며 월
 
 ~~가끔 HTML은 프로그래밍 언어이다. 라고하는게 보이는데 마크업 언어가 맞습니다.~~
 
+## Inline code
+
+Code can be rendered inline by wrapping it in single back ticks.
+
+<div class="code-example" markdown="1">
+Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+## Heading with `<inline code snippet>` in it.
+{: .no_toc }
+</div>
+```markdown
+Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+## Heading with `<inline code snippet>` in it.
+```
+
+---
+
+
 ## HTML 태그 형식
 
 HTML는 꺽쇠 괄호로 둘러싸인 형태로 태그를 만듭니다.
@@ -59,7 +78,7 @@ HTML는 꺽쇠 괄호로 둘러싸인 형태로 태그를 만듭니다.
     아몬드가 죽었다를 다섯글자로? 다이아몬드<br>
     오리가 얼면? 언덕<br>
     추장보다 높은것은? 고추장<br>
-    시계좀 보시계 엌ㅋㅋㅋ
+    시계좀 보시계 엌ㅋㅋ
 </p>
 ```
 
