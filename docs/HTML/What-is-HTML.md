@@ -123,7 +123,7 @@ HTML는 꺽쇠 괄호로 둘러싸인 형태로 태그를 만듭니다.
     Empty attribute syntax, Unquoted attribute value syntax, Single-quoted attribute value syntax, Double-quoted attribute value syntax...
     ```
 
-이렇게 HTML에 특정 패턴을 가지고있는것을 볼 수 있습니다.
+이렇게 HTML 태그를 구성할때 특정 패턴을 가지고있는것을 볼 수 있습니다.
 
 예시를 보여주자면
 
@@ -146,7 +146,7 @@ HTML는 꺽쇠 괄호로 둘러싸인 형태로 태그를 만듭니다.
 <p style="color:red;">Hello red!</p>
 ```
 
-이렇게 div, br, p 태그를 이용하여 각 원하는 영역을 가지고 만들어져있는것을 볼 수 있습니다.
+이렇게 ``div, br, p`` 태그를 이용하여 각 원하는 영역을 가지고 만들어져있는것을 볼 수 있습니다.
 
 만약에 HTML를 배우다보면 디자인이나 동적에 대해 관심을 가지게 될텐데
 

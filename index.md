@@ -12,85 +12,39 @@ permalink: /
 지금까지 공부하면서 배운 모든 내용을 요약하고 쉽게 공부하기 위해 만들어진 블로그 입니다.
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-## Getting started
+안녕하세요 세명컴퓨터고등학교에 재학중인 김민욱입니다.
 
-### Dependencies
+## Contact
 
-Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
+* GitHub：[kimminwyk](https://github.com/kimminwyk)
+* email：kimtong6451@gmail.com
+* [Facebook](https://www.facebook.com/me2nuk)
+* nickname : me2nuk
 
-### Quick start: Use as a GitHub Pages remote theme
+## 소속
 
-1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
-```yaml
-remote_theme: pmarsceill/just-the-docs
-```
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
+* 현) TeamH4C 해킹 스터디
+* 현) TeamH4C 해킹 스터디 CTF 팀장
+* 현) 2021학년도 서울여자대학교 정보보호영재교육원 고등전문 B
 
-### Local installation: Use the gem-based theme
++ ## 수상 & CTF top
+    + [Hacking Camp CTF 2th](/files/HackingCamp/CTF-2th.png)
+    + [The Hacking Championship Junior 2020 CTF 10th](http://www.kukinews.com/newsView/kuk202011260227)
 
-1. Install the Ruby Gem
-```bash
-$ gem install just-the-docs
-```
-```yaml
-# .. or add it to your your Jekyll site’s Gemfile
-gem "just-the-docs"
-```
-2. Add Just the Docs to your Jekyll site’s `_config.yml`
-```yaml
-theme: "just-the-docs"
-```
-3. _Optional:_ Initialize search data (creates `search-data.json`)
-```bash
-$ bundle exec just-the-docs rake search:init
-```
-3. Run you local Jekyll server
-```bash
-$ jekyll serve
-```
-```bash
-# .. or if you're using a Gemfile (bundler)
-$ bundle exec jekyll serve
-```
-4. Point your web browser to [http://localhost:4000](http://localhost:4000)
+## CTF 참여 경험
 
-If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
-
-### Configure Just the Docs
-
-- [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
-
----
-
-## About the project
-
-Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com).
-
-### License
-
-Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
-
-### Contributing
-
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
-
-#### Thank you to the contributors of Just the Docs!
-
-<ul class="list-style-none">
-{% for contributor in site.github.contributors %}
-  <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
-  </li>
-{% endfor %}
-</ul>
-
-### Code of Conduct
-
-Just the Docs is committed to fostering a welcoming community.
-
-[View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
++ #### 2021
+  + [UMassCTF 2021](https://ctftime.org/event/1282/)
+  + [bluehens CTF(UDCTF) 2021](https://ctftime.org/event/1298/)
+  + [codeFest CTF](https://ctftime.org/event/1305/)
+  + [UTCTF](https://ctftime.org/event/1177)
+  + [DaVinci CTF](https://ctftime.org/event/1296)
+  + [Hacking Camp CTF](http://hackingcamp.org/)
+  
++ #### 2020
+  + [Dreamhack CTF Season 1 Round #2](https://dreamhack.io/ctf/2)
+  + [The Hacking Championship Junior 2020 CTF](http://www.kukinews.com/newsView/kuk202011260227)
