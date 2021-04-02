@@ -155,7 +155,7 @@ HTML는 꺽쇠 괄호로 둘러싸인 형태로 태그를 만듭니다.
 CSS의 경우 HTML 태그로 만들어진 구역 즉 뼈대에 스타일 및 레이아웃을 정의하거나 작은 움직임을 줄 수 있습니다.
 HTML과 연동하여 사용하고 싶다면
 
-```HTML
+```html
 <link href="FILE.css">
 <style>
     ...
@@ -168,7 +168,7 @@ HTML과 연동하여 사용하고 싶다면
 JS는 HTML 태그에 원하는대로 어떠한 웹 페이지의 동작을 정의할 수 있습니다.
 마찬가지로 HTML과 연동하고싶다면
 
-```HTML
+```html
 <script src="FILE.js"></script>
 <script>
     ...
