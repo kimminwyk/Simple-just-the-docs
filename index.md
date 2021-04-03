@@ -31,7 +31,7 @@ permalink: /
 * 현) TeamH4C 해킹 스터디 CTF 팀장
 * 현) 2021학년도 서울여자대학교 정보보호영재교육원 고등전문 B
 
-+ ## 수상 & CTF top
+## 수상 & CTF top
     + [Hacking Camp CTF 2th](/files/HackingCamp/CTF-2th.png)
     + [The Hacking Championship Junior 2020 CTF 10th](http://www.kukinews.com/newsView/kuk202011260227)
 
