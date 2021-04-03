@@ -1,6 +1,6 @@
 ---
 layout: default
-title: js
+title: JavaScript
 nav_order: 4
 has_children: true
 permalink: /docs/JavaScript
