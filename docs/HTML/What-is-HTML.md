@@ -76,7 +76,7 @@ HTML는 꺽쇠 괄호로 둘러싸인 형태로 태그를 만듭니다.
 
 기본적으로 HTML으로 구성되어있는 태그의 경우 ``<start tag>Content</end tag>`` 이런 요소로 만들어져있는것을 볼 수 있습니다.
 
-저 모든 태그를 통틀어서 Element라고 불리기도 합니다.
+저 ``<start tag>...</end tag>`` 를 통틀어서 Element라고 불리기도 합니다.
 
 ![HTML Element](/post_images/HTML/What-is-HTML/html-element.png)
 

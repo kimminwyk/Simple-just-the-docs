@@ -1,7 +1,7 @@
 ---
 layout: default
 title: HTML
-nav_order: 5
+nav_order: 3
 has_children: true
 permalink: /docs/HTML
 description: "HTML는 마크업 언어이며 웹에서 기본적으로 쓰이는 언어중 하나입니다."
