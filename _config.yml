@@ -16,7 +16,7 @@
 title: me2nuk WriteUp
 description: me2nuk WriteUp or Docs Blog
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://md.me2nuk.kro.kr" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://test.me2nuk.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
